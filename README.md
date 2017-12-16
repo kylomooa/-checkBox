@@ -1,5 +1,7 @@
 ##checkBox
+
 一个checkBox的层级勾选模板，多层级展示选择项
+
 ####废话不多说直接上界面效果
 <img src="https://github.com/kylomooa/-checkBox/blob/master/checkBoxShow.gif?raw=true">
 
