@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059273D3B4F79F8AA34EA835 /* libPods-HierarchyCheckBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1219044CE63C9F38B73F4E0 /* libPods-HierarchyCheckBox.a */; };
+		6745ABB2AE39779E372E056D /* libPods-HierarchyCheckBoxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4AFA9EDB063D65B1196581 /* libPods-HierarchyCheckBoxTests.a */; };
+		CF480650353BFA9275FB4BD2 /* libPods-HierarchyCheckBoxUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD67EF9E6340E6EB810BF90 /* libPods-HierarchyCheckBoxUITests.a */; };
+		CF9CCDD31FE3BA3700171A57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCDD21FE3BA3700171A57 /* AppDelegate.m */; };
+		CF9CCDD61FE3BA3700171A57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCDD51FE3BA3700171A57 /* ViewController.m */; };
+		CF9CCDD91FE3BA3700171A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9CCDD71FE3BA3700171A57 /* Main.storyboard */; };
+		CF9CCDDE1FE3BA3700171A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9CCDDC1FE3BA3700171A57 /* LaunchScreen.storyboard */; };
+		CF9CCDE11FE3BA3700171A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCDE01FE3BA3700171A57 /* main.m */; };
+		CF9CCDEB1FE3BA3700171A57 /* HierarchyCheckBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCDEA1FE3BA3700171A57 /* HierarchyCheckBoxTests.m */; };
+		CF9CCDF61FE3BA3700171A57 /* HierarchyCheckBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCDF51FE3BA3700171A57 /* HierarchyCheckBoxUITests.m */; };
+		CF9CCE0B1FE3C94D00171A57 /* HierarchyCheckBoxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCE0A1FE3C94D00171A57 /* HierarchyCheckBoxVC.m */; };
+		CF9CCE0F1FE3CAC400171A57 /* CheckBoxItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CCE0E1FE3CAC400171A57 /* CheckBoxItemModel.m */; };
+		CFFBD84F1FE489F800AA3C81 /* LevelTwoHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBD8481FE489F800AA3C81 /* LevelTwoHeaderView.m */; };
+		CFFBD8501FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBD8491FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.m */; };
+		CFFBD8511FE489F800AA3C81 /* LevelThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBD84C1FE489F800AA3C81 /* LevelThreeCell.m */; };
+		CFFBD8521FE489F800AA3C81 /* LevelOneHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBD84E1FE489F800AA3C81 /* LevelOneHeaderView.m */; };
+		CFFBD8551FE489FF00AA3C81 /* LevelTwoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBD8531FE489FF00AA3C81 /* LevelTwoTableView.m */; };
+		CFFBD85D1FE49FBB00AA3C81 /* HCUbtton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFBD85C1FE49FBB00AA3C81 /* HCUbtton.m */; };
+		CFFBD85F1FE4AF0200AA3C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFBD85E1FE4AF0200AA3C81 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF9CCDE71FE3BA3700171A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9CCDC61FE3BA3700171A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9CCDCD1FE3BA3700171A57;
+			remoteInfo = HierarchyCheckBox;
+		};
+		CF9CCDF21FE3BA3700171A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9CCDC61FE3BA3700171A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9CCDCD1FE3BA3700171A57;
+			remoteInfo = HierarchyCheckBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CAADC19E5A6F335779647F6 /* Pods-HierarchyCheckBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyCheckBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyCheckBoxTests/Pods-HierarchyCheckBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		619A4B6B5E53A0D911C5EEB9 /* Pods-HierarchyCheckBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyCheckBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyCheckBox/Pods-HierarchyCheckBox.release.xcconfig"; sourceTree = "<group>"; };
+		6C4AFA9EDB063D65B1196581 /* libPods-HierarchyCheckBoxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HierarchyCheckBoxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD67EF9E6340E6EB810BF90 /* libPods-HierarchyCheckBoxUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HierarchyCheckBoxUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9CCDCE1FE3BA3700171A57 /* HierarchyCheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchyCheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9CCDD11FE3BA3700171A57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF9CCDD21FE3BA3700171A57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF9CCDD41FE3BA3700171A57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF9CCDD51FE3BA3700171A57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF9CCDD81FE3BA3700171A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF9CCDDD1FE3BA3700171A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF9CCDDF1FE3BA3700171A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9CCDE01FE3BA3700171A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9CCDE61FE3BA3700171A57 /* HierarchyCheckBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyCheckBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9CCDEA1FE3BA3700171A57 /* HierarchyCheckBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyCheckBoxTests.m; sourceTree = "<group>"; };
+		CF9CCDEC1FE3BA3700171A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9CCDF11FE3BA3700171A57 /* HierarchyCheckBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyCheckBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9CCDF51FE3BA3700171A57 /* HierarchyCheckBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyCheckBoxUITests.m; sourceTree = "<group>"; };
+		CF9CCDF71FE3BA3700171A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9CCE081FE3C83600171A57 /* prefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefixHeader.h; sourceTree = "<group>"; };
+		CF9CCE091FE3C94D00171A57 /* HierarchyCheckBoxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HierarchyCheckBoxVC.h; sourceTree = "<group>"; };
+		CF9CCE0A1FE3C94D00171A57 /* HierarchyCheckBoxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyCheckBoxVC.m; sourceTree = "<group>"; };
+		CF9CCE0D1FE3CAC400171A57 /* CheckBoxItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxItemModel.h; sourceTree = "<group>"; };
+		CF9CCE0E1FE3CAC400171A57 /* CheckBoxItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxItemModel.m; sourceTree = "<group>"; };
+		CFFBD8471FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTwoCheckBoxSuperCell.h; sourceTree = "<group>"; };
+		CFFBD8481FE489F800AA3C81 /* LevelTwoHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTwoHeaderView.m; sourceTree = "<group>"; };
+		CFFBD8491FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTwoCheckBoxSuperCell.m; sourceTree = "<group>"; };
+		CFFBD84A1FE489F800AA3C81 /* LevelOneHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelOneHeaderView.h; sourceTree = "<group>"; };
+		CFFBD84B1FE489F800AA3C81 /* LevelTwoHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTwoHeaderView.h; sourceTree = "<group>"; };
+		CFFBD84C1FE489F800AA3C81 /* LevelThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelThreeCell.m; sourceTree = "<group>"; };
+		CFFBD84D1FE489F800AA3C81 /* LevelThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelThreeCell.h; sourceTree = "<group>"; };
+		CFFBD84E1FE489F800AA3C81 /* LevelOneHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelOneHeaderView.m; sourceTree = "<group>"; };
+		CFFBD8531FE489FF00AA3C81 /* LevelTwoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTwoTableView.m; sourceTree = "<group>"; };
+		CFFBD8541FE489FF00AA3C81 /* LevelTwoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTwoTableView.h; sourceTree = "<group>"; };
+		CFFBD85B1FE49FBB00AA3C81 /* HCUbtton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCUbtton.h; sourceTree = "<group>"; };
+		CFFBD85C1FE49FBB00AA3C81 /* HCUbtton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCUbtton.m; sourceTree = "<group>"; };
+		CFFBD85E1FE4AF0200AA3C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEBF0EE446A9CF4E3F1AC6A0 /* Pods-HierarchyCheckBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyCheckBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyCheckBoxUITests/Pods-HierarchyCheckBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1219044CE63C9F38B73F4E0 /* libPods-HierarchyCheckBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HierarchyCheckBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33C3EFB15D789200738594F /* Pods-HierarchyCheckBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyCheckBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyCheckBoxUITests/Pods-HierarchyCheckBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E85E621094DF3DCCBC7B6A1E /* Pods-HierarchyCheckBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyCheckBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyCheckBox/Pods-HierarchyCheckBox.debug.xcconfig"; sourceTree = "<group>"; };
+		F70F6DE943435B006ECE73AF /* Pods-HierarchyCheckBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HierarchyCheckBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HierarchyCheckBoxTests/Pods-HierarchyCheckBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9CCDCB1FE3BA3700171A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059273D3B4F79F8AA34EA835 /* libPods-HierarchyCheckBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9CCDE31FE3BA3700171A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6745ABB2AE39779E372E056D /* libPods-HierarchyCheckBoxTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9CCDEE1FE3BA3700171A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF480650353BFA9275FB4BD2 /* libPods-HierarchyCheckBoxUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614F35361C0814124E20F841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1219044CE63C9F38B73F4E0 /* libPods-HierarchyCheckBox.a */,
+				6C4AFA9EDB063D65B1196581 /* libPods-HierarchyCheckBoxTests.a */,
+				9BD67EF9E6340E6EB810BF90 /* libPods-HierarchyCheckBoxUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9CCDC51FE3BA3700171A57 = {
+			isa = PBXGroup;
+			children = (
+				CF9CCDD01FE3BA3700171A57 /* HierarchyCheckBox */,
+				CF9CCDE91FE3BA3700171A57 /* HierarchyCheckBoxTests */,
+				CF9CCDF41FE3BA3700171A57 /* HierarchyCheckBoxUITests */,
+				CF9CCDCF1FE3BA3700171A57 /* Products */,
+				F774AB934BF8AB6FD1D8732C /* Pods */,
+				614F35361C0814124E20F841 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9CCDCF1FE3BA3700171A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CCDCE1FE3BA3700171A57 /* HierarchyCheckBox.app */,
+				CF9CCDE61FE3BA3700171A57 /* HierarchyCheckBoxTests.xctest */,
+				CF9CCDF11FE3BA3700171A57 /* HierarchyCheckBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9CCDD01FE3BA3700171A57 /* HierarchyCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBD8561FE48AB400AA3C81 /* Extension */,
+				CF9CCE0C1FE3CA9600171A57 /* Model */,
+				CF9CCE041FE3C73600171A57 /* VC */,
+				CF9CCE031FE3C73600171A57 /* View */,
+				CF9CCDD11FE3BA3700171A57 /* AppDelegate.h */,
+				CF9CCDD21FE3BA3700171A57 /* AppDelegate.m */,
+				CF9CCDD41FE3BA3700171A57 /* ViewController.h */,
+				CF9CCDD51FE3BA3700171A57 /* ViewController.m */,
+				CFFBD85E1FE4AF0200AA3C81 /* Assets.xcassets */,
+				CF9CCDD71FE3BA3700171A57 /* Main.storyboard */,
+				CF9CCDDC1FE3BA3700171A57 /* LaunchScreen.storyboard */,
+				CF9CCDDF1FE3BA3700171A57 /* Info.plist */,
+				CF9CCDE01FE3BA3700171A57 /* main.m */,
+				CF9CCE081FE3C83600171A57 /* prefixHeader.h */,
+			);
+			path = HierarchyCheckBox;
+			sourceTree = "<group>";
+		};
+		CF9CCDE91FE3BA3700171A57 /* HierarchyCheckBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CCDEA1FE3BA3700171A57 /* HierarchyCheckBoxTests.m */,
+				CF9CCDEC1FE3BA3700171A57 /* Info.plist */,
+			);
+			path = HierarchyCheckBoxTests;
+			sourceTree = "<group>";
+		};
+		CF9CCDF41FE3BA3700171A57 /* HierarchyCheckBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CCDF51FE3BA3700171A57 /* HierarchyCheckBoxUITests.m */,
+				CF9CCDF71FE3BA3700171A57 /* Info.plist */,
+			);
+			path = HierarchyCheckBoxUITests;
+			sourceTree = "<group>";
+		};
+		CF9CCE031FE3C73600171A57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBD8541FE489FF00AA3C81 /* LevelTwoTableView.h */,
+				CFFBD8531FE489FF00AA3C81 /* LevelTwoTableView.m */,
+				CFFBD8461FE489C100AA3C81 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF9CCE041FE3C73600171A57 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CCE091FE3C94D00171A57 /* HierarchyCheckBoxVC.h */,
+				CF9CCE0A1FE3C94D00171A57 /* HierarchyCheckBoxVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CF9CCE0C1FE3CA9600171A57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CCE0D1FE3CAC400171A57 /* CheckBoxItemModel.h */,
+				CF9CCE0E1FE3CAC400171A57 /* CheckBoxItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFFBD8461FE489C100AA3C81 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBD84A1FE489F800AA3C81 /* LevelOneHeaderView.h */,
+				CFFBD84E1FE489F800AA3C81 /* LevelOneHeaderView.m */,
+				CFFBD8471FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.h */,
+				CFFBD8491FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.m */,
+				CFFBD84B1FE489F800AA3C81 /* LevelTwoHeaderView.h */,
+				CFFBD8481FE489F800AA3C81 /* LevelTwoHeaderView.m */,
+				CFFBD84D1FE489F800AA3C81 /* LevelThreeCell.h */,
+				CFFBD84C1FE489F800AA3C81 /* LevelThreeCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CFFBD8561FE48AB400AA3C81 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CFFBD85B1FE49FBB00AA3C81 /* HCUbtton.h */,
+				CFFBD85C1FE49FBB00AA3C81 /* HCUbtton.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F774AB934BF8AB6FD1D8732C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E85E621094DF3DCCBC7B6A1E /* Pods-HierarchyCheckBox.debug.xcconfig */,
+				619A4B6B5E53A0D911C5EEB9 /* Pods-HierarchyCheckBox.release.xcconfig */,
+				F70F6DE943435B006ECE73AF /* Pods-HierarchyCheckBoxTests.debug.xcconfig */,
+				1CAADC19E5A6F335779647F6 /* Pods-HierarchyCheckBoxTests.release.xcconfig */,
+				E33C3EFB15D789200738594F /* Pods-HierarchyCheckBoxUITests.debug.xcconfig */,
+				DEBF0EE446A9CF4E3F1AC6A0 /* Pods-HierarchyCheckBoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9CCDCD1FE3BA3700171A57 /* HierarchyCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9CCDFA1FE3BA3700171A57 /* Build configuration list for PBXNativeTarget "HierarchyCheckBox" */;
+			buildPhases = (
+				C9C8117824BBE7FB3A018F86 /* [CP] Check Pods Manifest.lock */,
+				CF9CCDCA1FE3BA3700171A57 /* Sources */,
+				CF9CCDCB1FE3BA3700171A57 /* Frameworks */,
+				CF9CCDCC1FE3BA3700171A57 /* Resources */,
+				8A9F38112DEE7B829BAA4D9B /* [CP] Embed Pods Frameworks */,
+				9BEE857053F702ADF8193C80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HierarchyCheckBox;
+			productName = HierarchyCheckBox;
+			productReference = CF9CCDCE1FE3BA3700171A57 /* HierarchyCheckBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF9CCDE51FE3BA3700171A57 /* HierarchyCheckBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9CCDFD1FE3BA3700171A57 /* Build configuration list for PBXNativeTarget "HierarchyCheckBoxTests" */;
+			buildPhases = (
+				1121AA337A36095D3019A3A4 /* [CP] Check Pods Manifest.lock */,
+				CF9CCDE21FE3BA3700171A57 /* Sources */,
+				CF9CCDE31FE3BA3700171A57 /* Frameworks */,
+				CF9CCDE41FE3BA3700171A57 /* Resources */,
+				75B597547FCE831E31BFECE7 /* [CP] Embed Pods Frameworks */,
+				168FDFE538284A4EEDC1B9C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9CCDE81FE3BA3700171A57 /* PBXTargetDependency */,
+			);
+			name = HierarchyCheckBoxTests;
+			productName = HierarchyCheckBoxTests;
+			productReference = CF9CCDE61FE3BA3700171A57 /* HierarchyCheckBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF9CCDF01FE3BA3700171A57 /* HierarchyCheckBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9CCE001FE3BA3700171A57 /* Build configuration list for PBXNativeTarget "HierarchyCheckBoxUITests" */;
+			buildPhases = (
+				88A021AE44B04389DEBF5805 /* [CP] Check Pods Manifest.lock */,
+				CF9CCDED1FE3BA3700171A57 /* Sources */,
+				CF9CCDEE1FE3BA3700171A57 /* Frameworks */,
+				CF9CCDEF1FE3BA3700171A57 /* Resources */,
+				1A1CEEFA4C39CC4495964A93 /* [CP] Embed Pods Frameworks */,
+				DC45769E98D49A498DEE9CE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9CCDF31FE3BA3700171A57 /* PBXTargetDependency */,
+			);
+			name = HierarchyCheckBoxUITests;
+			productName = HierarchyCheckBoxUITests;
+			productReference = CF9CCDF11FE3BA3700171A57 /* HierarchyCheckBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9CCDC61FE3BA3700171A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = kylo.mooa;
+				TargetAttributes = {
+					CF9CCDCD1FE3BA3700171A57 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF9CCDE51FE3BA3700171A57 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF9CCDCD1FE3BA3700171A57;
+					};
+					CF9CCDF01FE3BA3700171A57 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF9CCDCD1FE3BA3700171A57;
+					};
+				};
+			};
+			buildConfigurationList = CF9CCDC91FE3BA3700171A57 /* Build configuration list for PBXProject "HierarchyCheckBox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF9CCDC51FE3BA3700171A57;
+			productRefGroup = CF9CCDCF1FE3BA3700171A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9CCDCD1FE3BA3700171A57 /* HierarchyCheckBox */,
+				CF9CCDE51FE3BA3700171A57 /* HierarchyCheckBoxTests */,
+				CF9CCDF01FE3BA3700171A57 /* HierarchyCheckBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9CCDCC1FE3BA3700171A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CCDDE1FE3BA3700171A57 /* LaunchScreen.storyboard in Resources */,
+				CFFBD85F1FE4AF0200AA3C81 /* Assets.xcassets in Resources */,
+				CF9CCDD91FE3BA3700171A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9CCDE41FE3BA3700171A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9CCDEF1FE3BA3700171A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1121AA337A36095D3019A3A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HierarchyCheckBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		168FDFE538284A4EEDC1B9C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyCheckBoxTests/Pods-HierarchyCheckBoxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A1CEEFA4C39CC4495964A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyCheckBoxUITests/Pods-HierarchyCheckBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B597547FCE831E31BFECE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyCheckBoxTests/Pods-HierarchyCheckBoxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A021AE44B04389DEBF5805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HierarchyCheckBoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9F38112DEE7B829BAA4D9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyCheckBox/Pods-HierarchyCheckBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEE857053F702ADF8193C80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyCheckBox/Pods-HierarchyCheckBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C8117824BBE7FB3A018F86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HierarchyCheckBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC45769E98D49A498DEE9CE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HierarchyCheckBoxUITests/Pods-HierarchyCheckBoxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9CCDCA1FE3BA3700171A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CCDD61FE3BA3700171A57 /* ViewController.m in Sources */,
+				CFFBD84F1FE489F800AA3C81 /* LevelTwoHeaderView.m in Sources */,
+				CFFBD8521FE489F800AA3C81 /* LevelOneHeaderView.m in Sources */,
+				CF9CCDE11FE3BA3700171A57 /* main.m in Sources */,
+				CFFBD8511FE489F800AA3C81 /* LevelThreeCell.m in Sources */,
+				CF9CCDD31FE3BA3700171A57 /* AppDelegate.m in Sources */,
+				CFFBD8501FE489F800AA3C81 /* LevelTwoCheckBoxSuperCell.m in Sources */,
+				CF9CCE0F1FE3CAC400171A57 /* CheckBoxItemModel.m in Sources */,
+				CFFBD85D1FE49FBB00AA3C81 /* HCUbtton.m in Sources */,
+				CF9CCE0B1FE3C94D00171A57 /* HierarchyCheckBoxVC.m in Sources */,
+				CFFBD8551FE489FF00AA3C81 /* LevelTwoTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9CCDE21FE3BA3700171A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CCDEB1FE3BA3700171A57 /* HierarchyCheckBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9CCDED1FE3BA3700171A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CCDF61FE3BA3700171A57 /* HierarchyCheckBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF9CCDE81FE3BA3700171A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9CCDCD1FE3BA3700171A57 /* HierarchyCheckBox */;
+			targetProxy = CF9CCDE71FE3BA3700171A57 /* PBXContainerItemProxy */;
+		};
+		CF9CCDF31FE3BA3700171A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9CCDCD1FE3BA3700171A57 /* HierarchyCheckBox */;
+			targetProxy = CF9CCDF21FE3BA3700171A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF9CCDD71FE3BA3700171A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9CCDD81FE3BA3700171A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9CCDDC1FE3BA3700171A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9CCDDD1FE3BA3700171A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9CCDF81FE3BA3700171A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF9CCDF91FE3BA3700171A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9CCDFB1FE3BA3700171A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85E621094DF3DCCBC7B6A1E /* Pods-HierarchyCheckBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTTFCYCQG4;
+				GCC_PREFIX_HEADER = /Users/maoqiang/Desktop/HierarchyCheckBox/HierarchyCheckBox/HierarchyCheckBox/prefixHeader.h;
+				INFOPLIST_FILE = HierarchyCheckBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sybercare.HierarchyCheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9CCDFC1FE3BA3700171A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619A4B6B5E53A0D911C5EEB9 /* Pods-HierarchyCheckBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTTFCYCQG4;
+				INFOPLIST_FILE = HierarchyCheckBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sybercare.HierarchyCheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF9CCDFE1FE3BA3700171A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70F6DE943435B006ECE73AF /* Pods-HierarchyCheckBoxTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HierarchyCheckBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sybercare.HierarchyCheckBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchyCheckBox.app/HierarchyCheckBox";
+			};
+			name = Debug;
+		};
+		CF9CCDFF1FE3BA3700171A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAADC19E5A6F335779647F6 /* Pods-HierarchyCheckBoxTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HierarchyCheckBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sybercare.HierarchyCheckBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchyCheckBox.app/HierarchyCheckBox";
+			};
+			name = Release;
+		};
+		CF9CCE011FE3BA3700171A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33C3EFB15D789200738594F /* Pods-HierarchyCheckBoxUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HierarchyCheckBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sybercare.HierarchyCheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HierarchyCheckBox;
+			};
+			name = Debug;
+		};
+		CF9CCE021FE3BA3700171A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBF0EE446A9CF4E3F1AC6A0 /* Pods-HierarchyCheckBoxUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HierarchyCheckBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sybercare.HierarchyCheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HierarchyCheckBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9CCDC91FE3BA3700171A57 /* Build configuration list for PBXProject "HierarchyCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9CCDF81FE3BA3700171A57 /* Debug */,
+				CF9CCDF91FE3BA3700171A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9CCDFA1FE3BA3700171A57 /* Build configuration list for PBXNativeTarget "HierarchyCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9CCDFB1FE3BA3700171A57 /* Debug */,
+				CF9CCDFC1FE3BA3700171A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9CCDFD1FE3BA3700171A57 /* Build configuration list for PBXNativeTarget "HierarchyCheckBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9CCDFE1FE3BA3700171A57 /* Debug */,
+				CF9CCDFF1FE3BA3700171A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9CCE001FE3BA3700171A57 /* Build configuration list for PBXNativeTarget "HierarchyCheckBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9CCE011FE3BA3700171A57 /* Debug */,
+				CF9CCE021FE3BA3700171A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF9CCDC61FE3BA3700171A57 /* Project object */;
+}
